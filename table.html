@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Table</title>
+</head>
+<body>
+    <h1>Belajar Table</h1>
+
+    <table style="border: 1px solid black;">
+        <colgroup>
+            <col span="2" style="background-color: yellow;">
+            <col style="background-color: green;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th colspan="2">Nama & Tgl Lahir</th>
+                <th>Nilai</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Algazali</td>
+                <td>13 Juli 2006</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Alfulan</td>
+                <td>29 Maret 2007</td>
+                <td>80</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td rowspan="2">Total</td>
+                <td>Total</td>
+                <td>170</td>
+            </tr>
+            <tr>
+                <td>Rata-rata</td>
+                <td>75</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
